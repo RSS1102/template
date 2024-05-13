@@ -12,4 +12,4 @@ jobs: # 任务
     - name: Hello world action step
       id: hello123
        # 引入使用自定义的脚本,相对路径为私有操作，非第三方引用
-      uses: ./scripts/github-page.js
+      uses: ./scripts
