@@ -15,4 +15,4 @@ jobs:
       - name: Github Page    
         run: |
           pwd
-          node ./templates/github-page.js
+          node ./templates/scripts/github-page.js
