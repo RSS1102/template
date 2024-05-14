@@ -14,4 +14,5 @@ jobs:
           
       - name: Github Page    
         run: |
+          pwd
           node ./github-page.js
